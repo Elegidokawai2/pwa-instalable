@@ -1,4 +1,4 @@
-const CACHE_NAME = 'inspeccion-v1';
+const CACHE_NAME = 'inspeccion-v2';
 const ARCHIVOS = [
   './index.html',
   './styles.css',

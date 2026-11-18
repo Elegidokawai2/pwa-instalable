@@ -1,3 +1,64 @@
+body {
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+  font-size: 1.4rem;
+}
+
+h1 + p {
+  margin-top: 0;
+  color: #94a3b8;
+}
+
 video {
   width: 100%;
+  aspect-ratio: 3 / 4;
+  background: #000;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#mensaje-estado {
+  color: #94a3b8;
+}
+
+#aviso-permiso {
+  background: #1e293b;
+  border: 1px solid #2563eb;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.6rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button[hidden] {
+  display: none;
+}
+
+#btn-apagar-camara {
+  background: #dc2626;
+}
+
+#btn-instalar {
+  background: #22c55e;
 }
